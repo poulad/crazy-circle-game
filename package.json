@@ -1,0 +1,17 @@
+{
+  "name": "BubbleGun",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Poulad",
+  "scripts": {
+    "install": "./node_modules/.bin/typings install",
+    "postinstall": "./node_modules/.bin/tsc",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "express": "^4.15.3",
+    "serve-index": "^1.9.0",
+    "typescript": "^2.4.1",
+    "typings": "^2.1.1"
+  }
+}

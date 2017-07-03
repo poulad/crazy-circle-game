@@ -32,6 +32,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>AllFilesInTheProject</FilesToIncludeForPublish>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -74,6 +75,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\scripts\libs\easeljs-0.8.0.min.js" />
+    <Content Include="assets\scripts\libs\tweenjs-0.6.0.min.js" />
+    <Content Include="assets\scripts\script.js" />
+    <Content Include="assets\scripts\TgBF.js" />
+    <Content Include="assets\styles\game.css" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
